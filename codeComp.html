@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Code Complete</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .book-detail-section {
+      padding: 40px;
+    }
+
+    .book-detail {
+      display: flex;
+      align-items: flex-start;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .book-detail img {
+      width: 250px;
+      height: auto;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .book-info {
+      flex: 1;
+      max-width: 600px;
+    }
+
+    .book-info h2 {
+      margin-top: 0;
+    }
+
+    .book-info p {
+      line-height: 1.6;
+      color: #444;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1 style="text-align: center">The Book Nook</h1>
+<div class="nav-box">
+      <nav>
+        <a href="Home.html">Home</a>
+        <a href="add_customer.php">Library Card Signup</a>
+        <a href="books.php">Books</a>
+        <a href="checkout.php">Checkout</a>
+        <a href="show_customer.php">Customer Records</a>
+
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="book-detail-section">
+      <div class="book-detail">
+        <img src="codeCompl.jpg" alt="Code Complete book cover" />
+        <div class="book-info">
+          <h2>Code Complete</h2>
+          <p>
+            Widely considered one of the most practical programming books of all time, *Code Complete* offers thorough insights into software construction. Steve McConnell covers everything from variable naming and control structures to debugging and team productivity—making this essential reading for developers who want to write solid, readable, and maintainable code.
+          </p>
+          <p>
+            <strong>Author:</strong> Steve McConnell<br>
+            <strong>Published:</strong> 2004 (2nd Edition)<br>
+            <strong>Genre:</strong> Software Engineering, Programming Practices
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,206 @@
+/* Base Page Styling */
+body {
+  background-color: #e8e6e6;
+  margin: 0;
+  font-family: 'Georgia', serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Georgia', serif;
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #7D8F84;
+  letter-spacing: 1px;
+}
+
+/* Navigation Box */
+.nav-box {
+  border: 2px solid #A8BDB0;
+  padding: 1rem;
+  border-radius: 4px;
+  width: fit-content;
+  margin: 1rem auto;
+  background-color: #A8BDB0;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 0.75rem;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #F5F1E6;
+  text-decoration: underline;
+}
+
+/* Search Bar */
+.search-box {
+  text-align: center;
+  margin: 1rem;
+}
+
+.search-box input[type="text"] {
+  padding: 0.5rem;
+  width: 200px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.search-box button {
+  background-color: #A8BDB0;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.search-box button:hover {
+  background-color: #7D8F84;
+}
+
+/* Hero Info Section */
+.hero-info {
+  background-color: #A8BDB0;
+  padding: 2rem;
+  margin: 2rem auto;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 700px;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero-info-content {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  border-radius: 6px;
+}
+
+/* Book Section Layout */
+.book-collection {
+  padding: 2rem;
+}
+
+.book-row {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  background-color: #ffffff;
+  border: 2px solid #A8BDB0;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Individual Book Cards */
+.book-card {
+  width: 200px;
+  height: 340px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.book-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.book-card h3 {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.3;
+  margin: 0.5rem 0 1rem;
+  flex-grow: 1; /* allows title to take needed space */
+  overflow-wrap: break-word;
+}
+
+.book-card button {
+  background-color: #A8BDB0;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: background-color 0.2s ease;
+  align-self: center; /* keeps button centered */
+}
+
+
+.book-card button:hover {
+  background-color: #7D8F84;
+}
+
+/* Login and Signup Section */
+.auth-duo {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #e8e6e6; /* match page background */
+  border-radius: 8px;
+}
+
+.auth-box {
+  flex: 1;
+  background-color: #ffffff; /* clean white */
+  border: 1px solid #A8BDB0; /* soft sage border */
+  border-radius: 6px;
+  padding: 1.5rem;
+}
+
+.auth-box h2 {
+  color: #7D8F84;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.auth-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-box input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.auth-box button {
+  background-color: #A8BDB0;
+  color: #fff;
+  border: none;
+  padding: 0.6rem;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.auth-box button:hover {
+  background-color: #7D8F84;
+}
